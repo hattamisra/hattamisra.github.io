@@ -1,2 +1,6 @@
-# do not track the "private" directory
-private/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
