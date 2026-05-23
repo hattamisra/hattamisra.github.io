@@ -1,7 +1,7 @@
 # hattamisra/website
 Repository for a GitHub Pages website using Jekyll
 
-# Website sections
+# Website sections (to-do)
 ## Homepage 
 To contain a short blurb about me and some pretty pictures
 Some nice favicons to link to stuff (GitHub, resume/CV?)
