@@ -5,6 +5,7 @@
 
 // Theme overrides
 .sidebar {
+  opacity: 1;
   @include clearfix();
 
   // intended setup when the screen width is less than $large
@@ -12,7 +13,6 @@
     float: inline-start;
     width: calc(#{$medium});
     max-width: 100%;
-    opacity: 1;
 
     &.sticky {
       display: block;
@@ -24,54 +24,6 @@
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
-
-  @include breakpoint($large) {
-    float: inline-start;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 1;
-
-    &.sticky {
-      overflow-y: auto;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
-      max-height: calc(100vh - #{$nav-height} - 2em);
-    }
-  }
-
-  @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
-  }
-
-  > * {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 0;
-    font-family: $sans-serif-narrow;
-  }
-
-  p,
-  li {
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-    line-height: 1.5;
-  }
-
-  img {
-    width: 100%;
-
-    &.emoji {
-      width: 20px;
-      height: 20px;
-    }
-  }
 }
 
 .author__avatar {
@@ -80,19 +32,19 @@
   width: 540px;
   height: 405px;
 
-  @include breakpoint(max-width $large) {
+  @include breakpoint(max-width $medium) {
     padding: 0px;
     border: 0px solid $border-color;
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
-    min-width: 80px;
+    min-width: 60px;
     flex-shrink: 0;
     height: auto;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
     padding: 0px;
     border: 0px solid $border-color;
     display: block;
@@ -105,12 +57,7 @@
     border-radius: 0%;
 
     @include breakpoint(max-width $large) {
-      max-width: 80px;
-    }
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      max-width: 120px;
     }
   }
 }
@@ -128,28 +75,10 @@
 .author__content {
   @include breakpoint(max-width $large) {
     flex: 1;
-    min-width: 0;
+    min-width: 150px;
     overflow: hidden;
-
-    h3 {
-      margin-top: 0;
-      font-size: $type-size-5;
-    }
-
-    p {
-      font-size: $type-size-6;
-      margin: 0.25em 0;
-    }
   }
 }
-
-  .author__urls-wrapper {
-    @include breakpoint(max-width $large) {
-      position: relative;
-      display: block;
-      overflow: hidden;
-    }
-  }
 
 .author__urls {
   @include breakpoint(max-width $large) {
@@ -158,9 +87,6 @@
     overflow: auto;
     ul {
       position: absolute;
-      left: 0;
-      top: 100%;
-      width: 100%;
     }
   }
 }
