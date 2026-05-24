@@ -14,6 +14,21 @@
   //   transform: translate3d(0, 0, 0);
   // }
 
+  // intended setup when the screen width is less than $large
+  @include breakpoint(max-width $large) {
+    float: inline-start;
+    width: $small;
+    opacity: 1;
+
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      max-height: auto;
+    }
+  }
+
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
@@ -66,8 +81,20 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 540x;
+  width: 540px;
   height: 405px;
+
+  @include breakpoint(max-width $large) {
+    padding: 0px;
+    border: 0px solid $border-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 80px;
+    flex-shrink: 0;
+    height: auto;
+  }
 
   @include breakpoint($large) {
     padding: 0px;
@@ -81,9 +108,70 @@
     max-width: 300px;
     border-radius: 0%;
 
+    @include breakpoint(max-width $large) {
+      max-width: 80px;
+    }
+
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+    }
+  }
+}
+
+.h-card {
+  @include breakpoint(max-width $large) {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75em;
+    align-items: flex-start;
+    height: 100%;
+  }
+}
+
+.author__content {
+  @include breakpoint(max-width $large) {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+
+    h3 {
+      margin-top: 0;
+      font-size: $type-size-5;
+    }
+
+    p {
+      font-size: $type-size-6;
+      margin: 0.25em 0;
+    }
+  }
+}
+
+.author__urls_wrapper {
+  @include breakpoint(max-width $large) {
+    flex: 1;
+    min-width: 0;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.25em;
+
+    .btn {
+      padding: 4px 8px;
+      font-size: $type-size-6;
+      min-width: fit-content;
+    }
+
+    .author__urls {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: $type-size-6;
+
+      li {
+        margin: 0.25em 0;
+      }
     }
   }
 }
