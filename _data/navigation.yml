@@ -1,0 +1,6 @@
+# main links (top of screen)
+main:
+  - title: Home
+    url: /
+  - title: Test Post
+    url: /test/2026/05/23/helloworld
