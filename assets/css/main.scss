@@ -6,26 +6,22 @@
 // Theme overrides
 .sidebar {
   @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
-  //   position: relative;
-  //   z-index: 10;
-  //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
-  // }
 
   // intended setup when the screen width is less than $large
   @include breakpoint(max-width $large) {
     float: inline-start;
-    width: $small;
+    width: calc(#{$medium});
+    max-width: 100%;
     opacity: 1;
 
     &.sticky {
-      overflow-y: auto;
+      display: block;
+      overflow: hidden;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: auto;
+      height: 100%;
+      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
@@ -147,31 +143,24 @@
   }
 }
 
-.author__urls_wrapper {
-  @include breakpoint(max-width $large) {
-    flex: 1;
-    min-width: 0;
-    overflow: visible;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 0.25em;
-
-    .btn {
-      padding: 4px 8px;
-      font-size: $type-size-6;
-      min-width: fit-content;
+  .author__urls-wrapper {
+    @include breakpoint(max-width $large) {
+      position: relative;
+      display: block;
+      overflow: hidden;
     }
+  }
 
-    .author__urls {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      font-size: $type-size-6;
-
-      li {
-        margin: 0.25em 0;
-      }
+.author__urls {
+  @include breakpoint(max-width $large) {
+    display: none;
+    position: relative;
+    overflow: auto;
+    ul {
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
     }
   }
 }
