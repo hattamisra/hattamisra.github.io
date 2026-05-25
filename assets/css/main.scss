@@ -6,20 +6,13 @@
 // Theme overrides
 .sidebar {
   opacity: 1;
-  @include clearfix();
+  // @include clearfix();
 
   // intended setup when the screen width is less than $large
   @include breakpoint(max-width $large) {
-    float: inline-start;
-    width: calc(#{$medium});
     max-width: 100%;
 
     &.sticky {
-      display: block;
-      overflow: hidden;
-      /* calculate height of nav list
-         viewport height - nav height - masthead x-padding
-      */
       height: 100%;
       max-height: calc(100vh - #{$nav-height} - 2em);
     }
@@ -77,16 +70,5 @@
     flex: 1;
     min-width: 150px;
     overflow: hidden;
-  }
-}
-
-.author__urls {
-  @include breakpoint(max-width $large) {
-    display: none;
-    position: relative;
-    overflow: auto;
-    ul {
-      position: absolute;
-    }
   }
 }
