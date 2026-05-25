@@ -10,8 +10,8 @@ classes: wide
 
 Welcome to my website! I'm Hatta Misra, professional energy markets nerd in Sydney, Australia. Also amateur science fiction, worldbuilding, linguistics, and mystery nerd.
 
-[Email](mailto:hattamisra@gmail.com){: .btn .btn--primary .btn--large style="background-color: #c71610"}
-[Resume](assets/files/Hatta_Misra_Resume.pdf){: .btn .btn--primary .btn--large }
-[GitHub](https://github.com/hattamisra){: .btn .btn--primary .btn--large style="background-color: #000"}
-[LinkedIn](https://linkedin.com/in/hattamisra){: .btn .btn--linkedin .btn--large}
-[Instagram](https://instagram.com/hattamisra){: .btn .btn--primary .btn--large style="background-color: #ec0075"}
+[<i class="fas fa-fw fa-envelope"></i>](mailto:hattamisra@gmail.com){: .btn .btn--primary .btn--large style="background-color: #c71610"}
+[<i class="fas fa-fw fa-briefcase"></i>](assets/files/Hatta_Misra_Resume.pdf){: .btn .btn--primary .btn--large }
+[<i class="fab fa-fw fa-github"></i>](https://github.com/hattamisra){: .btn .btn--primary .btn--large style="background-color: #000"}
+[<i class="fab fa-fw fa-linkedin"></i>](https://linkedin.com/in/hattamisra){: .btn .btn--linkedin .btn--large}
+[<i class="fab fa-fw fa-instagram"></i>](https://instagram.com/hattamisra){: .btn .btn--primary .btn--large style="background-color: #ec0075"}

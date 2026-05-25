@@ -54,7 +54,7 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:hattamisra@gmail.com"
     - label: "Resume"
-      icon: "fas fa-fw fa-file"
+      icon: "fas fa-fw fa-briefcase"
       url: "assets/files/Hatta_Misra_Resume.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
