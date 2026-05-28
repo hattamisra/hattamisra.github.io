@@ -6,6 +6,7 @@ layout: single
 author_profile: true
 title: Hatta's Website
 classes: wide
+permalink: / # homepage
 ---
 
 Welcome to my website! I'm Hatta Misra, professional energy markets nerd in Sydney, Australia. Also amateur science fiction, worldbuilding, linguistics, and mystery nerd.
