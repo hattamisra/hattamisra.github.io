@@ -5,7 +5,6 @@
 layout: single
 author_profile: true
 title: Hatta's Website
-classes: wide
 permalink: / # homepage
 ---
 
