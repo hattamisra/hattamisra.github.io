@@ -52,7 +52,7 @@ defaults:
       author_profile: true
 
 author:
-  name: "Hatta Misra"
+  name: "Hatta Misra <br> <small> /ˈhɑtɑ/ · they/them </small>" 
   avatar: "/assets/img/hatta_sydney_harbour.jpg"
   bio: "Energy markets nerd (professional), science fiction nerd (amateur)" # Note: Markdown is allowed
   location: "Sydney, Australia"
