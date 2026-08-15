@@ -1,7 +1,7 @@
 ---
 author_profile: true
 title: Renting versus owning a home in Australia, 2006-2025
-permalink: /aus-rent-or-buy/
+permalink: /aus-rent-vs-buy/
 toc: true
 toc_sticky: true
 layout: single
