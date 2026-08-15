@@ -7,6 +7,8 @@ toc_sticky: true
 layout: single
 ---
 
+# Intro
+
 In 2025, Ben Felix - a Canadian investment manager - made a series of YouTube videos ([first](https://www.youtube.com/watch?v=lBG-g1CKfgs) and [second](https://www.youtube.com/watch?v=aU7v87EhDBI)) in which he modelled buying a home in multiple Canadian cities and compared that to renting and investing the difference. Using historical data over twenty years, he showed that renters in his model ended with higher wealth than comparable homeowners in major Canadian cities including Toronto, Montreal, and Winnipeg (which, incidentally, is wonderful - the [human rights museum](https://humanrights.ca/) is well worth a visit).
 
 I wondered - what would the numbers look like for Australia? Though on the opposite sides of the world, Canada and Australia have similar housing markets. The Australian Dream of a quarter-acre suburban block with a front and back garden seem like a carbon copy of the Canadian (and for that matter American) Dream. 
@@ -15,19 +17,23 @@ And in the past twenty years the (real and perceived) issues impacting the Canad
 
 Seeing how home prices have risen so greatly in their lifetime, and the social/cultural pressures favouring homeownership, it’s clear why many Australians think owning a house is both necessary and sufficient for building wealth. But are they right? To answer that question, I’ve adapted the model presented by Mr Felix in his videos (and further detailed in a [2025 paper](https://pwlcapital.com/renting-vs-owning-a-home-in-canada-2005-2024/) he co-wrote with Hamza Bin Arif) to analyse wealth outcomes of renting versus owning in Australian cities over the past 20 years, starting from January 2006 and ending in December 2025.
 
-# Renters came out ahead in 12 of the 16 cases studied
+# Renters came out ahead in 75% of cases, including both cases in Sydney and Melbourne 
 
-Alternative section title: "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia.
+An alternative title for this section could be "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia.
 
 ***bla bla bla talk about the results in summary here***
 
-# How the model works
+***tables here: table 1 is results for houses, table 2 is results for units***
+
+# How the model works, in summary
 
 If we want to investigate whether owning the home we live in results in superior financial outcomes, we need to analyse the total costs of owning a home and compare that to an alternative: in this case, renting and investing the difference in an equity market portfolio.
 
 The model starts in January 2006 with the owner - let's call him Oscar - buying a home on a 20% deposit, as well as paying the real estate agent's commission and stamp duty, and signs on to a 25-year variable-rate home loan. 
 
 Meanwhile, the renter - let's call her Rachel - invests the same amount of money as the deposit + commission + stamp duty, and starts renting a home equivalent to that of Oscar the owner. 
+
+***[flourish story here: slide 1 is (deposit + commission + stamp duty) = investment contributions. slide 2 is (principal + interest + ownership costs) = (rent + renter costs + investment contributions)]***
 
 Later in this article, I will look at different sensitivities, such as varying the size of the home deposit and considering capital gains taxes, to see how they impact the results.
 
@@ -36,8 +42,29 @@ Later in this article, I will look at different sensitivities, such as varying t
 {:.no_toc}
 ## Sydney
 
+I live in Sydney, the greatest city in the world. (I will accept Winnipeg as a close second.) Believing that it’s the greatest city in the world helped a little bit, though not enough, when I faced 20% year-on-year rent increases from about 2022 to 2024. Not to mention how apartment rents have grown by 4.83% per year, and 4.98% per year for houses, over the past 20 years.
+
+<!-- can make the next three paragraphs more concise here depending on what I write in the results summary section above-->
+
+So it was a surprise to me when I ran the analysis for (Greater) Sydney and found an ending renter-to-owner wealth ratio of 1.70 for two-bedroom flats. That is, the renter of an average two-bedroom flat ended up with 1.70 times the wealth of the owner of an equivalent flat after 20 years.
+
+To put it another way, the owner had ended up with half a million Australian dollars in home equity - a tidy packet. But the renter-investor ended up with over $850k in their stock portfolio, with the index growing by 8.06% per year.
+
+Median apartment prices grew by 4.09% per year but after adjusting for depreciation and renovation costs, they grew by only 2.52% per year. As Australian CPI grew by around 2.72% per year over the period, flats actually lost money in real terms. Okay, I thought - everyone knows that after the early-2010s bubble of new high-rise flats in the inner city and the bust that came after, you don’t expect capital appreciation for flats. 
+
+Detached houses are where it’s at! The Australian Dream home would surely have a lot of money in it.
+
+***flourish story here***
+
+So I was even more surprised when renting beat out owning for Sydney three-bedroom detached houses as well, albeit at a narrower margin of 1.19. Although the house owner had amassed $1.1 million in home equity, the renter’s portfolio ended at $1.3 million. The owner benefited from median house prices growing by 6.31% per year, the highest level of the eight cities studied, and still a sizable 5.21% per year after adjustments. But the high costs of owning relative to renting in Sydney, with the renter's cashflow costs being on average 68% of the owner's, the lowest level of the sixteen cases studied.
+
 {:.no_toc}
 ## Melbourne
+Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom flats was 1.74 in favour of the renter, owing to Melbourne’s sluggish growth in apartment prices (2.42% per year, adjusted), especially post-Covid. Cashflow costs for the renter were on average 75% of the owner, the second lowest after Sydney, which meant that the renter was able to build up a significant portfolio throughout the horizon. High growth in apartment rents over the period (5.01% per year), especially towards the end of the modelling horizon (9.34% per year in 2021-25) did lead to the renter becoming cashflow negative relative to the owner and matching the cash difference by withdrawing from their portfolio. However, the Australian and global stock markets continued to make significant gains during that period, leading to a greater wealth gap in favour of the renter.
+
+***flourish story here***
+
+The gap was less stark for the Melbourne 3-bedroom detached house, where the renter and owner actually kept close to each other until 2023. But after that, with Melbourne house prices stagnating and the global recovery from the 2022 bear market, the renter’s wealth overtook the owner’s with the gap widening over the next two years. The ending renter-to-owner wealth ratio was 1.56. The adjusted house price growth rate was 3.57% per year and rent growth was 4.46%.
 
 {:.no_toc}
 ## Brisbane
@@ -57,7 +84,70 @@ Later in this article, I will look at different sensitivities, such as varying t
 {:.no_toc}
 ## Darwin
 
+# How the model works, in detail
+
+Now let's talk about the methodology in detail, focusing on the data sources I used for this analysis. For the sickos reading this who want even more detail on data sources and calculations, check out the GitHub repo.
+
+## Rents and related costs
+
+The different Australian states and territories publish median rents for private housing, based on data for new rental bonds (security deposits). Rents were the most challenging data for me to find and process, as the publicly available data cover different time periods and levels of aggregation. 
+
+The following sources were used for rent data:
+- Sydney: Rent and sales report, New South Wales Department of Communities and Justice (DCJ).
+- Melbourne: Rental report, Homes Victoria.
+- Brisbane: Median rents data, Queensland Residential Tenancies Authority.
+- Adelaide: Private rent report, South Australian Housing Trust.
+- Perth, Canberra, Hobart, Darwin: Due to the lack of suitable public data, I had to construct composite time series rents for both 2-bedroom units and 3-bedroom houses from the following sources, starting from highest priority:
+    - Domain quarterly rental reports.
+    - Median weekly rents tables from Ableson and Joyeux 2023.
+    - Values from the Rental Affordability Index (RAI) for households renting median two-bedroom dwellings (for apartments) and median three-bedroom dwellings (for houses). For Perth, only the median was available, so I multiplied the median by scalars calibrated to Domain/Ableson and Joyeux values to get median apartment and house rents. For Darwin, no RAI data was available.
+    - Interpolation/extrapolation of Ableson and Joyeux data using the city's rent component of CPI.
+
+Throughout the modelling horizon, the renter also incurs additional costs of $800 per year in December 2025 dollars to represent other renter-specific costs like moving costs and tenant insurance.
+
+## Investments
+
+The model assumes that the renter invests the difference between their housing costs and the owner’s housing costs at the start of each quarter into a portfolio of 30% Australian and 70% global shares tracking the MSCI Australia IMI (gross of dividends) and the MSCI World IMI (net of dividends) total return indices. The expense ratio is set at 0.25% per annum.
+
+## Home prices
+
+The following sources were used for home price data:
+- Sydney: Rent and sales report, New South Wales Department of Communities and Justice (DCJ). This dataset separates home sale price by ownership structure (strata and non-strata) rather than dwelling type. I have assumed that strata properties are broadly equivalent to flats and non-strata properties are broadly equivalent to detached houses.
+- Other cities: Total value of dwellings report, Australian Bureau of Statistics. This report separates home sales by type of dwelling (detached houses and attached dwellings). 
+
+I have assumed that the median price detached house is comparable to the median 3-bedroom detached house available to both renters and homebuyers, and likewise for the median prices for all units and 2-bedroom units. This assumption is essentially that the home/unit in which the owner resides is comparable to the median 3-bed home/2-bed unit in which the renter resides, which is necessary for the model to make a fair comparison.
+
+## Home loan costs
+
+The model assumes that the owner buys the house with a 20% deposit and variable-rate home loan (mortgage) at a 25-year term. These terms are the most common in Australia.
+
+The home loan rate is the variable discounted owner-occupier rate from the Reserve Bank of Australia’s quarterly indicator lending rates dataset.
+
+## Home transaction costs
+For real estate agent commissions, I have assumed 1.5% of the home value on top of the price when purchasing the home, and 1.5% again when selling the home, according to Kaczerepa (2022). When purchasing the home, the owner also pays stamp duty, which is calculated as it would have been on 1 January 2006 in the state/territory. Stamp duty ends up being 3-4% of home value. Both the commission and stamp duty are added to the owner's cashflow costs.
+
+When selling the home, an additional 0.5% in other costs is added to the 1.5% commission to form the total cost of selling the home. This 2% is deducted from the reported home equity figure.
+
+## Depreciation, maintenance, and renovation costs
+Felix and Bin Arif use 1% of home prices for depreciation and 1/3 of gross rents for maintenance, with the simple average for both in their sample of Canadian cities being 2.66% of home prices.
+
+Fox and Tulip 2014 (refer to Tables 1, A2) look at 2010-11 tax statistics from the Australian Tax Office (ATO) and calculate home ownership running costs (council rates, maintenance, and plant depreciation) of 35.8% of rental income or 1.5% of property value. Using the same method with 2022-23 ATO data gets between 29.3% in Western Australia and 40.6% in Queensland with a simple average of 33.2% so the methodology still holds up.
+
+The model has 35% of rent to cover total home ownership running costs, or 1-1.5% of home prices. This is represented as an additional cashflow cost.
+
+Stapledon (2007, 2012) concluded that from 1960 to 2005, alterations and renovations contributed 1.15 percentage points a year to Australian home values and depreciation reduced home values by 1.06 percentage points a year.
+
+I have chosen to model the owner’s home depreciating in value by 1% of the original purchase price per year, and reduce home price growth by 1.15 percentage points per year to account for renovations and alterations. These result in the adjusted home price which is used in the model to calculate home equity.
+
+***[insert chart with CPI, portfolio index, median home price, and adjusted home price here]***
+
+The adjusted home price grows quite a bit less than the median home price. This is appropriate because the median home in 2025 is not the median home in 2006 that the owner bought, and that part of the reason home prices have grown is because of renovations which represents an investment cost. To accurately compare the wealth outcomes of homeownership with an alternative, the model cancels out the effect of renovations on aggregate housing prices.
+
 # Sensitivities
+
+## Taxes
+
+## Superannuation
 
 # So what?
 
@@ -69,7 +159,7 @@ Later in this article, I will look at different sensitivities, such as varying t
 Liked this article? Maybe: 
 - share the link [insert share buttons with link, reddit, etc.]
 - share to reddit
-- go through the github repo
+- star the github repo
 
 Hated this article? Maybe:
 - raise an issue on the github repo [github repo issues button]
