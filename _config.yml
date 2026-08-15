@@ -62,7 +62,7 @@ author:
       url: "mailto:hattamisra@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-briefcase"
-      url: "https://hattamisra.github.io/assets/files/Hatta_Misra_Resume.pdf"
+      url: "/assets/files/Hatta_Misra_Resume.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hattamisra"
