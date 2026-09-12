@@ -9,19 +9,19 @@ layout: single
 
 # Intro
 
-In 2025, Ben Felix, a Canadian investment manager, made a series of YouTube videos ([first](https://www.youtube.com/watch?v=lBG-g1CKfgs) and [second](https://www.youtube.com/watch?v=aU7v87EhDBI)) in which he modelled buying a home in multiple Canadian cities and compared that to renting and investing the difference. Using historical data over twenty years, he showed that renters in his model ended with higher wealth than comparable homeowners in major Canadian cities including Toronto, Montreal, and Winnipeg (which, incidentally, is wonderful - the [human rights museum](https://humanrights.ca/) is well worth a visit).
+In 2025, Ben Felix, a Canadian investment manager, made a series of YouTube videos ([first](https://www.youtube.com/watch?v=lBG-g1CKfgs) and [second](https://www.youtube.com/watch?v=aU7v87EhDBI)) in which he modelled buying a place of residence in multiple Canadian cities and compared that to renting and investing the difference. Using historical data over twenty years, he showed that renters in his model ended with higher wealth than comparable homeowners in major Canadian cities including Toronto, Montreal, and Winnipeg (which, incidentally, is wonderful - the [human rights museum](https://humanrights.ca/) is well worth a visit).
 
 I wondered - what would the numbers look like for Australia? Though on the opposite sides of the world, Canada and Australia have similar housing markets. The Australian Dream of a quarter-acre suburban block with a front and back garden seem like a carbon copy of the Canadian (and for that matter American) Dream. 
 
 And in the past twenty years the (real and perceived) issues impacting the Canadian and Australian housing markets (and housing crises!) also seem similar. Landlords taking advantage of poor tenant protections and rental regulations. An array of issues being blamed for the spike in housing prices, from tax breaks for investment properties to rising construction costs and high rates of immigration. Increasing financial stress for both renters and mortgage payers.
 
-Seeing how home prices have risen so greatly in their lifetime, and the social/cultural pressures favouring homeownership, it’s clear why many Australians think owning a house is both necessary and sufficient for building wealth. But are they right? To answer that question, I’ve adapted the model presented by Mr Felix in his videos (and further detailed in a [2025 paper](https://pwlcapital.com/renting-vs-owning-a-home-in-canada-2005-2024/) he co-wrote with Hamza Bin Arif) to analyse wealth outcomes of renting versus owning in Australian cities over the past 20 years, starting from January 2006 and ending in December 2025.
+Seeing how home prices have risen so greatly in their lifetime, and the social/cultural pressures favouring homeownership, it’s clear why many Australians think owning a house is both necessary and sufficient for building wealth. But are they right: is it a sucker's game to rent the home you live in? To answer that question, I’ve adapted the model presented by Mr Felix in his videos (and further detailed in a [2025 paper](https://pwlcapital.com/renting-vs-owning-a-home-in-canada-2005-2024/) he co-wrote with Hamza Bin Arif) to analyse wealth outcomes of renting versus owning a home in Australian cities over the past 20 years, starting from January 2006 and ending in December 2025.
 
-# Renters came out ahead in 75% of cases, including both cases in Sydney and Melbourne
+# Renters came out ahead in three&nbsp;quarters of cases
 
-An alternative title for this section could be "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia.
+An alternative title for this section could be "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia. Of the eight cities modelled - the Australian state capitals as well as Canberra and Darwin - renters of two-bedroom flats came out ahead of owners in seven cities, and renters of three-bedroom houses came out ahead in five.
 
-Of the eight cities modelled - the Australian state capitals as well as Canberra and Darwin - for two-bedroom flats, only Adelaide had the owner end up with higher wealth than the renter. The other cities had the model renter come out ahead. In three cities they ended up with a share portfolio worth over 1.7 times the owner's home equity - Sydney, Melbourne, and Canberra. The geometric mean of the ending renter-to-owner wealth ratios was 1.34 in favour of the renter.
+For two-bedroom flats, only Adelaide had the owner end up with higher wealth than the renter. The other cities had the model renter come out ahead. In three cities - Sydney, Melbourne, and Canberra - they ended up with a share portfolio worth over 1.7 times the owner's home equity. The geometric mean of the ending renter-to-owner wealth ratios was 1.34 in favour of the renter.
 
 ***tables here: table 1 is results for units***
 
@@ -33,21 +33,19 @@ So, okay, I thought - everyone knows that after the early-2010s bubble of new hi
 
 ***table 2 is results for houses***
 
-Well, this article is getting to be like an AED because here's another shock. For three-bedroom houses, only the Adelaide case ended in a clear lead for the homeowner with a renter-to-owner wealth ratio of 0.94, while Brisbane and Hobart ended in a dead heat with an ending wealth ratio of 0.99 (less than ten grand difference in net worth, in dollar terms). The geometric mean of the ending wealth ratios was 1.21.
+Well, this article is getting to be like an AED because here's another shock. For three-bedroom houses, only the Adelaide case ended in a clear though still narrow lead for the homeowner with a renter-to-owner wealth ratio of 0.94, while Brisbane and Hobart ended in a dead heat with ending wealth ratios of 0.99 (less than ten grand difference in net worth, in dollar terms). The geometric mean of the ending wealth ratios was 1.21.
 
 In a nutshell, these results are because of the sizable total costs of homeownership, both in terms of cashflow costs like mortgage and maintenance as well as the less clear-cut but perhaps even greater opportunity cost of buying a home.
 
+# The model, in summary
+
 <!-- Account for the total costs of homeownership, especially maintenance, leading to the renter having lower cashflow costs -->
-
 <!-- Opportunity costs, or the formal meaning of "investing the difference" -->
-
-# How the model works, in summary
-
 If we want to investigate whether owning the home we live in results in superior financial outcomes, we need to analyse the total costs of owning a home and compare that to an alternative: in this case, renting and investing the difference in an equity market portfolio. The alternative of investing in stocks is how we can calculate the opportunity cost of owning, which is what someone gives up (the returns from investing the difference in stocks) when they choose to spend money on something (buying a home).
 
 The model starts in January 2006 with the owner buying a home on a 20% deposit, as well as paying the real estate agent's commission and stamp duty, and signs on to a 25-year variable-rate home loan. Meanwhile, the renter invests the same amount of money as the deposit + commission + stamp duty, and starts renting a home equivalent to that of the owner.
 
-Each quarter, the homeowner spends money on the mortgage (principal and interest) and other running costs like maintenance, council rates, and depreciation of plant items (for example, aircon and hot water units). The renter pays rent and other expenses like contents insurance and moving costs, and invests the difference between their expenses and the owner's expenses into their share portfolio. If the owner's expenses are lower than the renter's, the renter withdraws the difference from the portfolio.
+Each quarter, the homeowner spends money on the mortgage (principal and interest) and other running costs like maintenance, council rates, and depreciation of plant items (for example, aircon and hot water units). The renter pays rent and other expenses like contents insurance and moving costs, and invests the difference between their expenses and the owner's expenses into their share portfolio. If the owner's expenses are lower than the renter's, the renter withdraws the difference from their portfolio.
 
 ***[flourish story here: slide 1 is (deposit + commission + stamp duty) = investment contributions. slide 2 is (principal + interest + ownership costs) = (rent + renter costs + investment contributions)]***
 
@@ -58,14 +56,13 @@ Later in this article, I will discuss the model in greater detail and provide th
 ----
 <!-- But first, an advert... -->
 <!-- also hahaha you can't adblock this i'm so evil >:)-->
-[![An advert for Hatta's 27th birthday pub quiz and fundraiser for the Against Malaria Foundation](/assets/img/hatta_27th_bday_promo.png)](https://www.AgainstMalaria.com/Hatta27thPubQuiz)
+[![An advertisement for Hatta's 27th birthday pub quiz and fundraiser for the Against Malaria Foundation](/assets/img/hatta_27th_bday_promo.png)](https://www.AgainstMalaria.com/Hatta27thPubQuiz)
 Advertisement
 {: style="color:gray; font-size: 80%; text-align: center;"}
 ----
 
 # Results by city
 
-{:.no_toc}
 ## Sydney
 
 I live in Sydney, the greatest city in the world. (I will accept Winnipeg as a close second.) Believing that it’s the greatest city in the world helped a little bit, though not enough, when I was slugged with massive rent increases from about 2022 to 2024. Not to mention how apartment rents had grown by 4.83% per year, and 4.98% per year for houses, from 2006 to the end of 2025.
@@ -80,7 +77,6 @@ Median apartment prices grew by 4.09% per year but after adjusting for depreciat
 
 I was even more surprised when renting beat out owning for Sydney three-bedroom detached houses as well, albeit at a narrower margin of 1.19. Although the house owner had amassed $1.1 million in home equity, the renter’s portfolio ended at $1.3 million. The owner benefited from median house prices growing by 6.31% per year, the highest level of the eight cities studied, and still a sizable 5.21% per year after adjustments. But the high costs of owning relative to renting in Sydney, with the renter's cashflow costs being on average 68% of the owner's, the lowest level of the sixteen cases studied, resulted in the renter being able to invest quite a bit into their portfolio.
 
-{:.no_toc}
 ## Melbourne
 Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom flats was 1.74 in favour of the renter, owing to Melbourne’s sluggish growth in apartment prices (2.42% per year, adjusted), especially post-Covid. Cashflow costs for the renter were on average 75% of the owner, the second lowest after Sydney, which meant that the renter was able to build up a significant portfolio throughout the horizon. High growth in apartment rents over the period (5.01% per year), especially towards the end of the modelling horizon (9.34% per year in 2021-25) did lead to the renter becoming cashflow negative relative to the owner and matching the cash difference by withdrawing from their portfolio. However, the Australian and global stock markets continued to make significant gains during that period, leading to a greater wealth gap in favour of the renter.
 
@@ -88,7 +84,6 @@ Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom
 
 The gap was less stark for the Melbourne 3-bedroom detached house, where the renter and owner actually kept close to each other until 2023. But after that, with Melbourne house prices stagnating and the global recovery from the 2022 bear market, the renter’s wealth overtook the owner’s with the gap widening over the next two years. The ending renter-to-owner wealth ratio was 1.56, the adjusted house price growth rate was 3.57% per year and rent growth was 4.46%.
 
-{:.no_toc}
 ## Brisbane
 
 Brisbane homeowners benefitted from above average growth for both flats and houses, and insulated from above-average rent increases over the horizon (5.55% p.a. for flats, 4.68% p.a. for houses), both of which primarily happened after the pandemic. But rents were fairly stagnant between 2011 and 2020, meaning that renters had below average cashflow costs (87.3% of the owner's cashflow for flats, 78.6% for houses) and had more to invest. 
@@ -97,7 +92,6 @@ Brisbane homeowners benefitted from above average growth for both flats and hous
 
 As a result, the ending renter-to-owner wealth ratio ended in a dead heat: 1.07 for flats and 0.99 for houses.
 
-{:.no_toc}
 ## Perth
 
 Perth's story was similar to Brisbane's: higher than average home price growth and rent increases, most of which came about after Covid. But Perth ended up being quite favourable to renters because after the end of the 2000s mining boom, home prices stagnated and rents actually decreased (both in nominal terms!) between 2013 and 2020.
@@ -108,16 +102,14 @@ Lower rent growth meant lower cashflow costs for Perth renters relative to owner
 
 While the post-Covid price growth allowed the owner to catch up somewhat, the renter kept a comfortable lead, with the ending wealth ratio being 1.41 for flats and 1.48 for houses.
 
-{:.no_toc}
 ## Adelaide
 
 Adelaide experienced very high home price growth through the horizon, with 6.06% p.a. for flats (the highest of the eight cities) and 6.30% p.a. for houses (just behind Sydney's 6.31% p.a.). As with other cities, a lot of this increase came after Covid, with double-digit annual price growth for both flats and houses between 2020 and the end of 2025. 
 
 ***flourish charts here***
 
-This led to the owner pushing ahead of the renter, with the ending wealth ratio being 0.94 for both flats and houses. (The ending ratios being the same for both cases is just a coincidence.)
+This led to the owner pushing ahead of the renter, with the ending wealth ratios being 0.94 for both flats and houses. (The ending ratios being the same for both cases is just a coincidence.)
 
-{:.no_toc}
 ## Canberra
 
 Canberra had below average home price growth and the lowest rent growth per annum (2.69% for flats, 3.09% for houses) of the eight cities analysed. Both of these made Canberra more favourable for the renter.
@@ -126,16 +118,14 @@ Canberra had below average home price growth and the lowest rent growth per annu
 
 The ending renter-to-owner wealth ratios were 1.72 for flats and 1.25 for houses.
 
-{:.no_toc}
 ## Hobart
 
 Hobart had relatively high cashflow costs for renters at over 90% of ownership costs for both houses and flats, as well as above average home price growth, making the city relatively favourable for owners.
 
 ***flourish charts here***
 
-The ending renter-to-owner wealth ratio was 1.15 for flats and 0.99 for houses. In both cases Hobart had the third most favourable ending wealth ratio for owners, behind Adelaide and Brisbane.
+The ending renter-to-owner wealth ratios were 1.15 for flats and 0.99 for houses. In both cases Hobart had the third most favourable ending wealth ratio for owners, behind Adelaide and Brisbane.
 
-{:.no_toc}
 ## Darwin
 
 The cost to rent a home in Darwin relative to ownership costs was the highest in the eight cities. Darwin is the only city analysed where the flat renter's cashflow costs were higher than the owner's at 103.3%. While the house renter's cashflow costs were still lower than the owner's, at 92.4% this is still the highest of the eight cities. This helped the Darwin owner came out ahead of the renter in the first half of the horizon, especially for flats.
@@ -144,9 +134,9 @@ The cost to rent a home in Darwin relative to ownership costs was the highest in
 
 But the renter still ended up ahead, with ending ratios of 1.22 for flats and 1.46 for houses. This is primarily because of the high opportunity cost of owning: while the owner built home equity and saved on cashflow costs, they were not able to invest their home deposit and other purchase costs into the stock market like the renter. And with the stock market growing at 8% per year compared to the 3.11% p.a. for Darwin flats and 3.73% p.a. for homes, that meant quite a bit of foregone returns for the homeowner.
 
-# How the model works, in detail
+# The model, in detail
 
-Now let's talk about the methodology in detail, focusing on the data sources I used for this analysis. For the sickos reading this who want even more detail on data sources and calculations, check out the GitHub repo.
+Now let's talk about the methodology in detail, focusing on the data sources I used for this analysis. For the sickos reading this who want even more detail on data sources and calculations, [check out the GitHub repo](https://github.com/hattamisra/aus-rent-vs-buy).
 
 {:.no_toc}
 ## Rents and related costs
@@ -169,7 +159,7 @@ Throughout the modelling horizon, the renter also incurs additional costs of $80
 {:.no_toc}
 ## Investments
 
-The model assumes that the renter invests the difference between their housing costs and the owner’s housing costs at the start of each quarter into a portfolio of 30% Australian and 70% global shares tracking the MSCI Australia IMI (gross of dividends) and the MSCI World IMI (net of dividends) total return indices. The expense ratio is set at 0.25% per annum.
+The model assumes that the renter invests the difference between their housing costs and the owner’s housing costs at the start of each quarter into a portfolio of 30% Australian and 70% global shares tracking the MSCI Australia IMI (gross of dividends) and the MSCI World IMI (net of dividends) total return indices. Over the modelling horizon the 70-30 weighted index grew by 8.06% per annum. The expense ratio is set at 0.25% per annum.
 
 {:.no_toc}
 ## Home prices
@@ -207,31 +197,66 @@ I have chosen to model the owner’s home depreciating in value by 1% of the ori
 
 ***[insert chart with CPI, portfolio index, median home price, and adjusted home price here]***
 
-The adjusted home price grows quite a bit less than the median home price. This is appropriate because the median home in 2025 is not the median home in 2006 that the owner bought, and that part of the reason home prices have grown is because of renovations which represents an investment cost. To accurately compare the wealth outcomes of homeownership with an alternative, the model cancels out the effect of renovations on aggregate housing prices.
+The adjusted home price grows quite a bit less than the median home price. This is appropriate because the median home in 2025 is not the median home in 2006 that the owner bought: part of the reason home prices have grown is because of renovations which represent an investment cost. To accurately compare the wealth outcomes of homeownership with an alternative, the model cancels out the effect of renovations on aggregate housing prices.
 
 # "But what about..."
 
+The model here makes many assumptions: 20% down payment, not considering capital gains taxes for the equity portfolio, and not considering superannuation. Changing these parameters can affect the end result in multiple ways, though perhaps not as much as one would expect. If you want to try your own settings for each of these parameters, or combining multiple parameters, [check out the GitHub repo](https://github.com/hattamisra/aus-rent-vs-buy)!
+
+{:.no_toc}
 ## ...leverage?
 
+One frequently cited advantage of buying a house is that it is the easiest way for a typical individual investor to lever up their investments, amplifying their potential return. For example, if someone buys a million dollar home with a 20% down payment ($200k) and then the house value goes up 10% to $1.1 million, they essentially get a 50% return because their net worth has increased by $100k just from the $200k down payment.
+
+But this leverage is no free lunch, as amplifying potential return also amplifies the downside risk of the investment; with the same example above, if the house value had instead gone down 10% to $900k, they'd take a 50% loss as their net worth went down from $200k to just $100k. This leverage also comes with the substantial cost of debt interest. In our model, with home loan rates being above 5% from 2006 to 2014, home loan debt interest were significant cashflow and opportunity costs that reduced the returns of highly leveraged home buyers.
+
+Lower leverage for buying a home, i.e. buying it in cash, meant lower downside risk for the homeowner and much lower cashflow costs due to not having to pay a mortgage. But this also meant higher opportunity costs as the value of the home is locked up in the home instead of being invested in shares, partially cancelling out the benefits.
+
+***table here; 3bed homes on 5%, 20% (base), and 100% down payment***
+
+Varying leverage did not significantly change the ending outcomes, although increasing leverage with a 5% home deposit marginally worsened ending outcomes for homeowners and decreasing leverage by buying the home in cash somewhat improved ending outcomes for homeowners. One other thing to note is that in the 5% down payment case, the homeowners often went into negative equity around 2009, when home prices dropped and the homeowners had not paid the mortgage long enough to build significant home equity.
+
+{:.no_toc}
 ## ...taxes?
 
+Principal places of residence are very tax-efficient in Australia, as they are exempt from capital gains tax (CGT). Meanwhile, investing in shares in a taxable account means paying CGT when selling. 
+
+The model base case does not model the effects of CGT. The owner pays the mortgage and other costs with post-income-tax money, and the renter pays the rent and invests the difference with the same post-income-tax money. In effect, the base case of the model assumes that the renter is making non-concessional contributions into superannuation, as they are contributing their earnings after paying income tax but not having to pay CGT.
+
+Modelling the effect of taxes would have made the analysis more complicated while reducing the applicability of the results to people’s real-life situations. Accurately modelling taxation would have required specifying many more details including personal income, assets, and withdrawal rates. All that just to get outdated post-tax outcomes anyway, thanks to the Albanese Government’s capital gains tax changes in the May 2026 budget that replaced the 50% discount method with taxing capital gains after indexation of the cost base for inflation.
+
+***table here; 3bed homes on base case, 50% discount, and real gains***
+
+That said, changing the model to have the renter invest in a taxable account and thus accounting for capital gains tax has a moderate effect on the outcome. Modelling the 50% capital gains discount method that applied during this time period with a 32% tax rate (30% income tax + Medicare levy) led the ending renter-to-owner wealth ratio for Sydney 3-bedroom houses to decrease from 1.19 to 1.06. Still favouring the renter, but only just.
+
+Meanwhile, if the CGT changes from the May budget had historically applied - or rather, if John Howard's CGT changes hadn't gone through, as the May budget's changes was just a return to the original method - the ending wealth ratio for houses would have decreased further to 0.97 under the same 32% tax rate. Other cities had the same noticeable but moderate shift of ending wealth ratio, shifting 10-20 percentage points towards the owner when applying the 50% discount method and a further 8-12 points if the indexation method is used instead.
+
+{:.no_toc}
 ## ...super?
 
+One very powerful method of tax minimisation that the renter can access with their extra cashflow is making concessional contributions into superannuation. The renter can use their extra cashflow to make concessional contributions into super, a very powerful method of tax minimisation. In fact, as the owner has to pay for a down payment and mortgage through earnings after income tax, while the renter can invest with concessional tax benefits, this benefit may be even more powerful than the CGT exemption for a primary home. (Although the First Home Super Saver Scheme does mean that part of a down payment can benefit from tax concessions in super, this was not available to home buyers in 2006.)
+
+***table here; 3bed homes on base case, super @ 32% MTR, super @ 47% MTR***
+
+If the renter was able to invest all of their spare cashflow relative to the owner (including the down payment) as concessional contributions into super, the ending wealth ratio would be 15-25 points to the renter's favour if their marginal income tax rate (including Medicare levy) was 32% and a further 15-25 points to the renter's favour if their marginal tax rate was 47%.
+
+A fair question to ask here is if the renter would have room in their concessional contributions cap for a six-figure equivalent of a down payment and up to $25,000 a year in spare cashflow after that. The answer is yes; we can assume that as the owner saves up for a down payment, the renter mirrors the owner's investment but is investing in super and claiming concessional contributions, and there are ways to have enough room to contribute even for high-income individuals, such as [carrying forward contribution caps](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/caps-limits-and-tax-on-super-contributions/concessional-contributions-cap#ato-Carryforwardunusedcontributioncapamounts) or [making spousal contributions](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/how-to-save-more-in-your-super/spouse-super-contributions).
+
+{:.no_toc}
 ## ...debt recycling? Or something else?
 
 Maybe later. I just wanna get this post out and I've got a full-time job and the next half a dozen weekends booked so I don't have time right now ;_;
 
-If you've got a sensitivity that you want to analyse then please take my model from the GitHub repo! It's CC-BY licensed.
-
 # So what?
 
 <!-- be careful and don't give advice on whether people should buy because ASIC etc -->
+After looking through all these numbers, tables, and charts, the natural answer should be, so what? These are numbers in a model that do not perfectly reflect reality. These are historical figures, and don't tell us about how these outcomes will change in the future.
 
-- as renting provided comparable (or better) financial outcomes to owning rather than "renting is throwing money away" it's probably more nuanced than that.
+Well, there are a couple of things we can learn from this exercise. First, and perhaps most importantly, a lot of the conventional wisdom around renting versus owning doesn't seem to be holding up when interrogated with data and evidence. As renting and investing the difference in this model provided comparable (or better) financial outcomes to owning, popular beliefs like "renting is throwing money away" and "renting is just paying your landlord's mortgage" don't seem to hold up. Rather, renters who are disciplined and prudent so that they invest the difference - and will do so over many years - have a decent chance. And the model results show that historically they even moved ahead!
 
-- Two potential criticisms of this exercise that I want to address are "this model isn't relevant because no renter would ever invest the difference", and "but the benefits of homeownership are more than financial". First, personal finance is personal. No one is the same: some people can and have invested the difference, and some people are more suited to the renting life. Second, if people understood the financial costs and tradeoffs they are making then they can make decisions that better suit their personalities and goals. A homeowner who likes owning can nonetheless understand that their home isn't necessarily the foolproof investment asset that conventional wisdom says it is, and plan accordingly to make sure they don't end up house poor. Conversely, a renter can understand that they aren't throwing money away by renting, and use the advantage of their lower cashflow costs by investing the difference instead of... throwing money away!
+We can also see that the costs of owning that are often not considered in detail, such as maintenance and depreciation costs but perhaps most importantly the opportunity cost of owning a primary home rather than renting and investing the difference, can have a significant impact on ending wealth outcomes. Other purported benefits of homeownership, like accessing leverage, also don't seem to be the silver bullet that it's often claimed to be, also because of costs that are often not modelled rigorously.
 
-- these results also have the following implications for public policy... (buying a home on a 5% deposit didn't turn out great, )
+Two potential criticisms of this article that I want to address are "this model isn't relevant because no renter would ever invest the difference", and "but the benefits of homeownership are more than financial". First, personal finance is personal. No one is the same: some people can and have invested the difference, and some people are more suited to the renting life. Second, if people understood the financial costs and tradeoffs they are making then they can make decisions that better suit their personalities and goals. A homeowner who likes owning can nonetheless understand that their home isn't necessarily the foolproof investment asset that conventional wisdom says it is, and plan accordingly to make sure they don't end up house poor. Conversely, a renter can understand that they aren't throwing money away by renting, and use the advantage of their lower cashflow costs by investing the difference instead of... throwing money away!
 
 # Thanks for reading
 
