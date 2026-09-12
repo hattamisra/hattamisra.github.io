@@ -6,6 +6,7 @@ toc: true
 toc_sticky: true
 layout: single
 ---
+<!-- Move to the _pages subfolder to publish -->
 
 # Intro
 
@@ -23,7 +24,7 @@ An alternative title for this section could be "The results will shock you (NOT 
 
 For two-bedroom flats, only Adelaide had the owner end up with higher wealth than the renter. The other cities had the model renter come out ahead. In three cities - Sydney, Melbourne, and Canberra - they ended up with a share portfolio worth over 1.7 times the owner's home equity. The geometric mean of the ending renter-to-owner wealth ratios was 1.34 in favour of the renter.
 
-***tables here: table 1 is results for units***
+<div class="flourish-embed flourish-table" data-src="visualisation/29978985"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29978985/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
 A major reason for this shocking result is that all the cities except Darwin, the renter spent less than the owner throughout the modelling horizon, with the average rental spending being 88.1% of apartment owner spending. The renter invested the difference into a low-cost market portfolio of 30% Australian shares and 70% international shares. With the portfolio's index growing at 8.06% per year from 2006 to 2025, renting and investing the difference led to good financial results.
 
@@ -31,7 +32,7 @@ A major reason for this shocking result is that all the cities except Darwin, th
 
 So, okay, I thought - everyone knows that after the early-2010s bubble of new high-rise flats in the inner cities and the bust that came after, you don’t expect capital appreciation for flats. Detached houses are where it’s at! The Australian Dream home would surely have a lot of money in it.
 
-***table 2 is results for houses***
+<div class="flourish-embed flourish-table" data-src="visualisation/29979160"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29979160/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
 Well, this article is getting to be like an AED because here's another shock. For three-bedroom houses, only the Adelaide case ended in a clear though still narrow lead for the homeowner with a renter-to-owner wealth ratio of 0.94, while Brisbane and Hobart ended in a dead heat with ending wealth ratios of 0.99 (less than ten grand difference in net worth, in dollar terms). The geometric mean of the ending wealth ratios was 1.21.
 
@@ -47,7 +48,7 @@ The model starts in January 2006 with the owner buying a home on a 20% deposit, 
 
 Each quarter, the homeowner spends money on the mortgage (principal and interest) and other running costs like maintenance, council rates, and depreciation of plant items (for example, aircon and hot water units). The renter pays rent and other expenses like contents insurance and moving costs, and invests the difference between their expenses and the owner's expenses into their share portfolio. If the owner's expenses are lower than the renter's, the renter withdraws the difference from their portfolio.
 
-***[flourish story here: slide 1 is (deposit + commission + stamp duty) = investment contributions. slide 2 is (principal + interest + ownership costs) = (rent + renter costs + investment contributions)]***
+<div class="flourish-embed flourish-chart" data-src="story/3776256"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/story/3776256/thumbnail" width="100%" alt="visualization" /></noscript></div>
 
 In any case, the owner and renter always have equal cash flow expenses in the model. The expenses coloured in gray on the charts, like rent and home loan interest, are unrecoverable. But other expenses build equity, like paying off the home loan principal to build home equity and the renter contributing to their portfolio.
 
@@ -73,14 +74,18 @@ To put it another way, the owner had ended up with half a million Australian dol
 
 Median apartment prices grew by 4.09% per year but after adjusting for depreciation and renovation costs, they grew by only 2.52% per year. As Australian CPI grew by around 2.72% per year over the period, flats actually lost money in real terms. 
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30017033"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30017033/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30017213"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30017213/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 I was even more surprised when renting beat out owning for Sydney three-bedroom detached houses as well, albeit at a narrower margin of 1.19. Although the house owner had amassed $1.1 million in home equity, the renter’s portfolio ended at $1.3 million. The owner benefited from median house prices growing by 6.31% per year, the highest level of the eight cities studied, and still a sizable 5.21% per year after adjustments. But the high costs of owning relative to renting in Sydney, with the renter's cashflow costs being on average 68% of the owner's, the lowest level of the sixteen cases studied, resulted in the renter being able to invest quite a bit into their portfolio.
 
 ## Melbourne
 Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom flats was 1.74 in favour of the renter, owing to Melbourne’s sluggish growth in apartment prices (2.42% per year, adjusted), especially post-Covid. Cashflow costs for the renter were on average 75% of the owner, the second lowest after Sydney, which meant that the renter was able to build up a significant portfolio throughout the horizon. High growth in apartment rents over the period (5.01% per year), especially towards the end of the modelling horizon (9.34% per year in 2021-25) did lead to the renter becoming cashflow negative relative to the owner and matching the cash difference by withdrawing from their portfolio. However, the Australian and global stock markets continued to make significant gains during that period, leading to a greater wealth gap in favour of the renter.
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30029245"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30029245/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30029264"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30029264/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 The gap was less stark for the Melbourne 3-bedroom detached house, where the renter and owner actually kept close to each other until 2023. But after that, with Melbourne house prices stagnating and the global recovery from the 2022 bear market, the renter’s wealth overtook the owner’s with the gap widening over the next two years. The ending renter-to-owner wealth ratio was 1.56, the adjusted house price growth rate was 3.57% per year and rent growth was 4.46%.
 
@@ -88,7 +93,9 @@ The gap was less stark for the Melbourne 3-bedroom detached house, where the ren
 
 Brisbane homeowners benefitted from above average growth for both flats and houses, and insulated from above-average rent increases over the horizon (5.55% p.a. for flats, 4.68% p.a. for houses), both of which primarily happened after the pandemic. But rents were fairly stagnant between 2011 and 2020, meaning that renters had below average cashflow costs (87.3% of the owner's cashflow for flats, 78.6% for houses) and had more to invest. 
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30040735"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30040735/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30040739"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30040739/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 As a result, the ending renter-to-owner wealth ratio ended in a dead heat: 1.07 for flats and 0.99 for houses.
 
@@ -98,7 +105,9 @@ Perth's story was similar to Brisbane's: higher than average home price growth a
 
 Lower rent growth meant lower cashflow costs for Perth renters relative to owners (83.5% for flats, 75.5% for houses) with the renter having a lot to invest during the 2010s stock market bull run.
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30156109"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30156109/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30156137"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30156137/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 While the post-Covid price growth allowed the owner to catch up somewhat, the renter kept a comfortable lead, with the ending wealth ratio being 1.41 for flats and 1.48 for houses.
 
@@ -106,7 +115,9 @@ While the post-Covid price growth allowed the owner to catch up somewhat, the re
 
 Adelaide experienced very high home price growth through the horizon, with 6.06% p.a. for flats (the highest of the eight cities) and 6.30% p.a. for houses (just behind Sydney's 6.31% p.a.). As with other cities, a lot of this increase came after Covid, with double-digit annual price growth for both flats and houses between 2020 and the end of 2025. 
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30156456"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30156456/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30156481"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30156481/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 This led to the owner pushing ahead of the renter, with the ending wealth ratios being 0.94 for both flats and houses. (The ending ratios being the same for both cases is just a coincidence.)
 
@@ -114,7 +125,9 @@ This led to the owner pushing ahead of the renter, with the ending wealth ratios
 
 Canberra had below average home price growth and the lowest rent growth per annum (2.69% for flats, 3.09% for houses) of the eight cities analysed. Both of these made Canberra more favourable for the renter.
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157013"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157013/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157044"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157044/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 The ending renter-to-owner wealth ratios were 1.72 for flats and 1.25 for houses.
 
@@ -122,7 +135,9 @@ The ending renter-to-owner wealth ratios were 1.72 for flats and 1.25 for houses
 
 Hobart had relatively high cashflow costs for renters at over 90% of ownership costs for both houses and flats, as well as above average home price growth, making the city relatively favourable for owners.
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157271"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157271/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157287"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157287/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 The ending renter-to-owner wealth ratios were 1.15 for flats and 0.99 for houses. In both cases Hobart had the third most favourable ending wealth ratio for owners, behind Adelaide and Brisbane.
 
@@ -130,7 +145,9 @@ The ending renter-to-owner wealth ratios were 1.15 for flats and 0.99 for houses
 
 The cost to rent a home in Darwin relative to ownership costs was the highest in the eight cities. Darwin is the only city analysed where the flat renter's cashflow costs were higher than the owner's at 103.3%. While the house renter's cashflow costs were still lower than the owner's, at 92.4% this is still the highest of the eight cities. This helped the Darwin owner came out ahead of the renter in the first half of the horizon, especially for flats.
 
-***flourish charts here***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157294"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157294/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/30157314"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30157314/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 But the renter still ended up ahead, with ending ratios of 1.22 for flats and 1.46 for houses. This is primarily because of the high opportunity cost of owning: while the owner built home equity and saved on cashflow costs, they were not able to invest their home deposit and other purchase costs into the stock market like the renter. And with the stock market growing at 8% per year compared to the 3.11% p.a. for Darwin flats and 3.73% p.a. for homes, that meant quite a bit of foregone returns for the homeowner.
 
@@ -166,7 +183,7 @@ The model assumes that the renter invests the difference between their housing c
 
 The following sources were used for home price data:
 - Sydney: Rent and sales report, New South Wales Department of Communities and Justice (DCJ). This dataset separates home sale price by ownership structure (strata and non-strata) rather than dwelling type. I have assumed that strata properties are broadly equivalent to flats and non-strata properties are broadly equivalent to detached houses.
-- Other cities: Total value of dwellings report, Australian Bureau of Statistics. This report separates home sales by type of dwelling (detached houses and attached dwellings). 
+- Other cities: Total value of dwellings report, Australian Bureau of Statistics. This report separates home sales by type of dwelling (detached houses and attached dwellings).
 
 I have assumed that the median price detached house is comparable to the median 3-bedroom detached house available to both renters and homebuyers, and likewise for the median prices for all units and 2-bedroom units. This assumption is essentially that the home/unit in which the owner resides is comparable to the median 3-bed home/2-bed unit in which the renter resides, which is necessary for the model to make a fair comparison.
 
@@ -195,7 +212,7 @@ Stapledon (2007, 2012) concluded that from 1960 to 2005, alterations and renovat
 
 I have chosen to model the owner’s home depreciating in value by 1% of the original purchase price per year, and reduce home price growth by 1.15 percentage points per year to account for renovations and alterations. These result in the adjusted home price which is used in the model to calculate home equity.
 
-***[insert chart with CPI, portfolio index, median home price, and adjusted home price here]***
+<div class="flourish-embed flourish-chart" data-src="visualisation/30169660"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30169660/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
 The adjusted home price grows quite a bit less than the median home price. This is appropriate because the median home in 2025 is not the median home in 2006 that the owner bought: part of the reason home prices have grown is because of renovations which represent an investment cost. To accurately compare the wealth outcomes of homeownership with an alternative, the model cancels out the effect of renovations on aggregate housing prices.
 
@@ -212,7 +229,7 @@ But this leverage is no free lunch, as amplifying potential return also amplifie
 
 Lower leverage for buying a home, i.e. buying it in cash, meant lower downside risk for the homeowner and much lower cashflow costs due to not having to pay a mortgage. But this also meant higher opportunity costs as the value of the home is locked up in the home instead of being invested in shares, partially cancelling out the benefits.
 
-***table here; 3bed homes on 5%, 20% (base), and 100% down payment***
+<div class="flourish-embed flourish-table" data-src="visualisation/30230644"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30230644/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
 Varying leverage did not significantly change the ending outcomes, although increasing leverage with a 5% home deposit marginally worsened ending outcomes for homeowners and decreasing leverage by buying the home in cash somewhat improved ending outcomes for homeowners. One other thing to note is that in the 5% down payment case, the homeowners often went into negative equity around 2009, when home prices dropped and the homeowners had not paid the mortgage long enough to build significant home equity.
 
@@ -225,18 +242,18 @@ The model base case does not model the effects of CGT. The owner pays the mortga
 
 Modelling the effect of taxes would have made the analysis more complicated while reducing the applicability of the results to people’s real-life situations. Accurately modelling taxation would have required specifying many more details including personal income, assets, and withdrawal rates. All that just to get outdated post-tax outcomes anyway, thanks to the Albanese Government’s capital gains tax changes in the May 2026 budget that replaced the 50% discount method with taxing capital gains after indexation of the cost base for inflation.
 
-***table here; 3bed homes on base case, 50% discount, and real gains***
+<div class="flourish-embed flourish-table" data-src="visualisation/30230654"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30230654/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
 That said, changing the model to have the renter invest in a taxable account and thus accounting for capital gains tax has a moderate effect on the outcome. Modelling the 50% capital gains discount method that applied during this time period with a 32% tax rate (30% income tax + Medicare levy) led the ending renter-to-owner wealth ratio for Sydney 3-bedroom houses to decrease from 1.19 to 1.06. Still favouring the renter, but only just.
 
-Meanwhile, if the CGT changes from the May budget had historically applied - or rather, if John Howard's CGT changes hadn't gone through, as the May budget's changes was just a return to the original method - the ending wealth ratio for houses would have decreased further to 0.97 under the same 32% tax rate. Other cities had the same noticeable but moderate shift of ending wealth ratio, shifting 10-20 percentage points towards the owner when applying the 50% discount method and a further 8-12 points if the indexation method is used instead.
+Meanwhile, if the CGT changes from the May budget had historically applied - or rather, if John Howard's CGT changes hadn't gone through, as the May budget's changes was just a return to the original method - the ending wealth ratio for Sydney houses would have decreased further to 0.96 under the same 32% tax rate. Other cities had the same noticeable but moderate shift of ending wealth ratio, shifting 10-20 percentage points towards the owner when applying the 50% discount method and a further 8-12 points if the indexation method is used instead.
 
 {:.no_toc}
 ## ...super?
 
 One very powerful method of tax minimisation that the renter can access with their extra cashflow is making concessional contributions into superannuation. The renter can use their extra cashflow to make concessional contributions into super, a very powerful method of tax minimisation. In fact, as the owner has to pay for a down payment and mortgage through earnings after income tax, while the renter can invest with concessional tax benefits, this benefit may be even more powerful than the CGT exemption for a primary home. (Although the First Home Super Saver Scheme does mean that part of a down payment can benefit from tax concessions in super, this was not available to home buyers in 2006.)
 
-***table here; 3bed homes on base case, super @ 32% MTR, super @ 47% MTR***
+<div class="flourish-embed flourish-table" data-src="visualisation/30230697"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30230697/thumbnail" width="100%" alt="table visualization" /></noscript></div>
 
 If the renter was able to invest all of their spare cashflow relative to the owner (including the down payment) as concessional contributions into super, the ending wealth ratio would be 15-25 points to the renter's favour if their marginal income tax rate (including Medicare levy) was 32% and a further 15-25 points to the renter's favour if their marginal tax rate was 47%.
 
