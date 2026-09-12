@@ -107,3 +107,17 @@
     overflow: hidden;
   }
 }
+
+.page__title {
+  margin-top: 0;
+  line-height: 1.15;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  & + .page__meta {
+    margin-top: -0.5em;
+  }
+}
