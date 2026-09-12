@@ -9,7 +9,10 @@
   (mail, #c71610),
   (github, #000),
   (reddit, #ff5500),
-  (instagram, #ec0075);
+  (instagram, #ec0075),
+  (theme-blue, #5A8AC6),
+  (theme-red, red),
+  (theme-orange, orange);
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
       @include yiq-contrasted($color);

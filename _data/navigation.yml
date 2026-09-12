@@ -2,7 +2,7 @@
 main:
   - title: Home
     url: /
+  - title: Aus rent vs buy
+    url: /aus-rent-vs-buy/
   - title: About
     url: /about/
-  - title: Test Post
-    url: /test/2026/05/23/helloworld
