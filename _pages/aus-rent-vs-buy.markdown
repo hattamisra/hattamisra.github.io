@@ -18,9 +18,9 @@ And in the past twenty years the (real and perceived) issues impacting the Canad
 
 Seeing how home prices have risen so greatly in their lifetime, and the social/cultural pressures favouring homeownership, it’s clear why many Australians think owning a house is both necessary and sufficient for building wealth. But are they right: is it a sucker's game to rent the home you live in? To answer that question, I’ve adapted the model presented by Mr Felix in his videos (and further detailed in a [2025 paper](https://pwlcapital.com/renting-vs-owning-a-home-in-canada-2005-2024/) he co-wrote with Hamza Bin Arif) to analyse wealth outcomes of renting versus owning a home in Australian cities over the past 20 years, starting from January 2006 and ending in December 2025.
 
-# Renters came out ahead in three&nbsp;quarters of cases
+# Renters came out ahead in 3/4 of cases modelled
 
-An alternative title for this section could be "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia. Of the eight cities modelled - the Australian state capitals as well as Canberra and Darwin - renters of two-bedroom flats came out ahead of owners in seven cities, and renters of three-bedroom houses came out ahead in five.
+An alternative title for this section could be "The results will shock you (NOT CLICKBAIT)". They certainly shocked me, especially as I've seen firsthand how rents can rise very quickly in Australia. Of the eight cities modelled - the Australian state capitals as well as Canberra and Darwin - renting and investing the difference resulted in more wealth than owning in twelve of sixteen cases. Renters of two-bedroom flats came out ahead of owners in seven cities, and renters of three-bedroom houses came out ahead in five.
 
 For two-bedroom flats, only Adelaide had the owner end up with higher wealth than the renter. The other cities had the model renter come out ahead. In three cities - Sydney, Melbourne, and Canberra - they ended up with a share portfolio worth over 1.7 times the owner's home equity. The geometric mean of the ending renter-to-owner wealth ratios was 1.34 in favour of the renter.
 
@@ -44,7 +44,7 @@ In a nutshell, these results are because of the sizable total costs of homeowner
 <!-- Opportunity costs, or the formal meaning of "investing the difference" -->
 If we want to investigate whether owning the home we live in results in superior financial outcomes, we need to analyse the total costs of owning a home and compare that to an alternative: in this case, renting and investing the difference in an equity market portfolio. The alternative of investing in stocks is how we can calculate the opportunity cost of owning, which is what someone gives up (the returns from investing the difference in stocks) when they choose to spend money on something (buying a home).
 
-The model starts in January 2006 with the owner buying a home on a 20% deposit, as well as paying the real estate agent's commission and stamp duty, and signs on to a 25-year variable-rate home loan. Meanwhile, the renter invests the same amount of money as the deposit + commission + stamp duty, and starts renting a home equivalent to that of the owner.
+The model starts in January 2006 with the owner buying a home on a 20% deposit, as well as paying stamp duty and other transaction costs, and signs on to a 25-year variable-rate home loan. Meanwhile, the renter invests the same amount of money as the deposit + stamp duty + other costs, and starts renting a home equivalent to that of the owner.
 
 Each quarter, the homeowner spends money on the mortgage (principal and interest) and other running costs like maintenance, council rates, and depreciation of plant items (for example, aircon and hot water units). The renter pays rent and other expenses like contents insurance and moving costs, and invests the difference between their expenses and the owner's expenses into their share portfolio. If the owner's expenses are lower than the renter's, the renter withdraws the difference from their portfolio.
 
@@ -196,7 +196,7 @@ The home loan rate is the variable discounted owner-occupier rate from the Reser
 
 {:.no_toc}
 ## Home transaction costs
-For real estate agent commissions, I have assumed 1.5% of the home value on top of the price when purchasing the home, and 1.5% again when selling the home, according to Kaczerepa (2022). When purchasing the home, the owner also pays stamp duty, which is calculated as it would have been on 1 January 2006 in the state/territory. Stamp duty ends up being 3-4% of home value. Both the commission and stamp duty are added to the owner's cashflow costs.
+For transaction costs, I have assumed 1.5% of the home value on top of the price when purchasing the home (buyer's agent, conveyancing), and 1.5% again when selling the home for the seller's agent commission, according to Kaczerepa (2022). When purchasing the home, the owner also pays stamp duty, which is calculated as it would have been on 1 January 2006 in the state/territory. Stamp duty ends up being 3-4% of home value. Both the commission and stamp duty are added to the owner's cashflow costs.
 
 When selling the home, an additional 0.5% in other costs is added to the 1.5% commission to form the total cost of selling the home. This 2% is deducted from the reported home equity figure.
 
