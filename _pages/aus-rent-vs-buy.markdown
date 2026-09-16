@@ -263,6 +263,10 @@ That said, changing the model to have the renter invest in a taxable account and
 
 Meanwhile, if the CGT changes from the May budget had historically applied - or rather, if John Howard's CGT changes hadn't gone through, as the May budget's changes was just a return to the original method - the ending wealth ratio for Sydney houses would have decreased further to 0.96 under the same 32% tax rate. Other cities had the same noticeable but moderate shift of ending wealth ratio, shifting 10-20 percentage points towards the owner when applying the 50% discount method and a further 8-12 points if the indexation method is used instead.
 
+You may note that this sensitivity did not add on taxes on earnings. That's because taxation on earnings is already accounted for in the base model: for global equities, I used the MSCI World IMI (_net_ of dividends), i.e. accounting for withholding taxes on dividends. The withholding tax on global shares is likely to be lower than what the MSCI World IMI (net) index assumes, since the index assumes a fairly tax-inefficient investment structure without double taxation treaty benefits. The Australian portion of the portfolio would have franking credits largely cancel out the tax on dividends, so using the MSCI Australia IMI (_gross_ of dividends) index is appropriate. And if you're investing in superannuation, you may even get more in franking credits than you have to pay tax on dividends!
+
+If you're still not satisfied then take the model and set the expense ratio to 1.00% or something.
+
 ## ...super?
 
 One very powerful method of tax minimisation that the renter can access with their extra cashflow is making concessional contributions into superannuation. The renter can use their extra cashflow to make concessional contributions into super, a very powerful method of tax minimisation. In fact, as the owner has to pay for a down payment and mortgage through earnings after income tax, while the renter can invest with concessional tax benefits, this benefit may be even more powerful than the CGT exemption for a primary home. (Although the First Home Super Saver Scheme does mean that part of a down payment can benefit from tax concessions in super, this was not available to home buyers in 2006.)
@@ -381,3 +385,4 @@ State Revenue Office of Tasmania. Rates of duty [property transfer duties]. <htt
 | 2026-09-12 | Initial publication of post                                 |
 | 2026-09-13 | Minor edits to clarify wording                              |
 | 2026-09-16 | Added changelog & added "but what about" subsections to ToC |
+| 2026-09-16 | Clarification in taxes section                              |
