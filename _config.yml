@@ -54,7 +54,7 @@ defaults:
 author:
   name: "Hatta Misra <br> <small> /ˈhɑtɑ/ · they/them </small>" 
   avatar: "/assets/img/hatta_sydney_harbour.jpg"
-  bio: "Energy markets nerd (professional), science fiction nerd (amateur)" # Note: Markdown is allowed
+  bio: "Energy markets nerd (professional), general purpose nerd (amateur)" # Note: Markdown is allowed
   location: "Sydney, Australia"
   links:
     - label: "Email"

@@ -5,6 +5,7 @@ permalink: /aus-rent-vs-buy/
 toc: true
 toc_sticky: true
 layout: single
+description: Hatta compares buying a home in Australia to renting and investing the difference over 20 years.
 ---
 <!-- Move to the _pages subfolder to publish -->
 
