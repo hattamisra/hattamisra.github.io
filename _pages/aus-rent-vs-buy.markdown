@@ -64,6 +64,16 @@ Advertisement
 
 # Results by city
 
+* [Sydney](#sydney)
+* [Melbourne](#melbourne)
+* [Brisbane](#brisbane)
+* [Perth](#perth)
+* [Adelaide](#adelaide)
+* [Canberra](#canberra)
+* [Hobart](#hobart)
+* [Darwin](#darwin)
+
+{:.no_toc}
 ## Sydney
 
 I live in Sydney, the greatest city in the world. (I will accept Winnipeg as a close second.) Believing that it’s the greatest city in the world helped a little bit, though not enough, when I was slugged with massive rent increases from about 2022 to 2024. Not to mention how apartment rents had grown by 4.83% per year, and 4.98% per year for houses, from 2006 to the end of 2025.
@@ -80,6 +90,7 @@ Median apartment prices grew by 4.09% per year but after adjusting for depreciat
 
 I was even more surprised when renting beat out owning for Sydney three-bedroom detached houses as well, albeit at a narrower margin of 1.19. Although the house owner had amassed $1.1 million in home equity, the renter’s portfolio ended at $1.3 million. The owner benefited from median house prices growing by 6.31% per year, the highest level of the eight cities studied, and still a sizable 5.21% per year after adjustments. But the high costs of owning relative to renting in Sydney, with the renter's cashflow costs being on average 68% of the owner's, the lowest level of the sixteen cases studied, resulted in the renter being able to invest quite a bit into their portfolio.
 
+{:.no_toc}
 ## Melbourne
 Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom flats was 1.74 in favour of the renter, owing to Melbourne’s sluggish growth in apartment prices (2.42% per year, adjusted), especially post-Covid. Cashflow costs for the renter were on average 75% of the owner, the second lowest after Sydney, which meant that the renter was able to build up a significant portfolio throughout the horizon. High growth in apartment rents over the period (5.01% per year), especially towards the end of the modelling horizon (9.34% per year in 2021-25) did lead to the renter becoming cashflow negative relative to the owner and matching the cash difference by withdrawing from their portfolio. However, the Australian and global stock markets continued to make significant gains during that period, leading to a greater wealth gap in favour of the renter.
 
@@ -89,6 +100,7 @@ Melbourne's story was similar to Sydney's. The ending wealth ratio for 2-bedroom
 
 The gap was less stark for the Melbourne 3-bedroom detached house, where the renter and owner actually kept close to each other until 2023. But after that, with Melbourne house prices stagnating and the global recovery from the 2022 bear market, the renter’s wealth overtook the owner’s with the gap widening over the next two years. The ending renter-to-owner wealth ratio was 1.56, the adjusted house price growth rate was 3.57% per year and rent growth was 4.46%.
 
+{:.no_toc}
 ## Brisbane
 
 Brisbane homeowners benefitted from above average growth for both flats and houses, and insulated from above-average rent increases over the horizon (5.55% p.a. for flats, 4.68% p.a. for houses), both of which primarily happened after the pandemic. But rents were fairly stagnant between 2011 and 2020, meaning that renters had below average cashflow costs (87.3% of the owner's cashflow for flats, 78.6% for houses) and had more to invest. 
@@ -99,6 +111,7 @@ Brisbane homeowners benefitted from above average growth for both flats and hous
 
 As a result, the ending renter-to-owner wealth ratio ended in a dead heat: 1.07 for flats and 0.99 for houses.
 
+{:.no_toc}
 ## Perth
 
 Perth's story was similar to Brisbane's: higher than average home price growth and rent increases, most of which came about after Covid. But Perth ended up being quite favourable to renters because after the end of the 2000s mining boom, home prices stagnated and rents actually decreased (both in nominal terms!) between 2013 and 2020.
@@ -111,6 +124,7 @@ Lower rent growth meant lower cashflow costs for Perth renters relative to owner
 
 While the post-Covid price growth allowed the owner to catch up somewhat, the renter kept a comfortable lead, with the ending wealth ratio being 1.41 for flats and 1.48 for houses.
 
+{:.no_toc}
 ## Adelaide
 
 Adelaide experienced very high home price growth through the horizon, with 6.06% p.a. for flats (the highest of the eight cities) and 6.30% p.a. for houses (just behind Sydney's 6.31% p.a.). As with other cities, a lot of this increase came after Covid, with double-digit annual price growth for both flats and houses between 2020 and the end of 2025. 
@@ -121,6 +135,7 @@ Adelaide experienced very high home price growth through the horizon, with 6.06%
 
 This led to the owner pushing ahead of the renter, with the ending wealth ratios being 0.94 for both flats and houses. (The ending ratios being the same for both cases is just a coincidence.)
 
+{:.no_toc}
 ## Canberra
 
 Canberra had below average home price growth and the lowest rent growth per annum (2.69% for flats, 3.09% for houses) of the eight cities analysed. Both of these made Canberra more favourable for the renter.
@@ -131,6 +146,7 @@ Canberra had below average home price growth and the lowest rent growth per annu
 
 The ending renter-to-owner wealth ratios were 1.72 for flats and 1.25 for houses.
 
+{:.no_toc}
 ## Hobart
 
 Hobart had relatively high cashflow costs for renters at over 90% of ownership costs for both houses and flats, as well as above average home price growth, making the city relatively favourable for owners.
@@ -141,6 +157,7 @@ Hobart had relatively high cashflow costs for renters at over 90% of ownership c
 
 The ending renter-to-owner wealth ratios were 1.15 for flats and 0.99 for houses. In both cases Hobart had the third most favourable ending wealth ratio for owners, behind Adelaide and Brisbane.
 
+{:.no_toc}
 ## Darwin
 
 The cost to rent a home in Darwin relative to ownership costs was the highest in the eight cities. Darwin is the only city analysed where the flat renter's cashflow costs were higher than the owner's at 103.3%. While the house renter's cashflow costs were still lower than the owner's, at 92.4% this is still the highest of the eight cities. This helped the Darwin owner came out ahead of the renter in the first half of the horizon, especially for flats.
@@ -220,7 +237,6 @@ The adjusted home price grows quite a bit less than the median home price. This 
 
 The model here makes many assumptions: 20% down payment, not considering capital gains taxes for the equity portfolio, and not considering superannuation. Changing these parameters can affect the end result in multiple ways, though perhaps not as much as one would expect. If you want to try your own settings for each of these parameters, or combining multiple parameters, [check out the GitHub repo](https://github.com/hattamisra/aus-rent-vs-buy)!
 
-{:.no_toc}
 ## ...leverage?
 
 One frequently cited advantage of buying a house is that it is the easiest way for a typical individual investor to lever up their investments, amplifying their potential return. For example, if someone buys a million dollar home with a 20% down payment ($200k) and then the house value goes up 10% to $1.1 million, they essentially get a 50% return because their net worth has increased by $100k just from the $200k down payment.
@@ -233,7 +249,6 @@ Lower leverage for buying a home, i.e. buying it in cash, meant lower downside r
 
 Varying leverage did not significantly change the ending outcomes, although increasing leverage with a 5% home deposit marginally worsened ending outcomes for homeowners and decreasing leverage by buying the home in cash somewhat improved ending outcomes for homeowners. One other thing to note is that in the 5% down payment case, the homeowners often went into negative equity around 2009, when home prices dropped and the homeowners had not paid the mortgage long enough to build significant home equity.
 
-{:.no_toc}
 ## ...taxes?
 
 Principal places of residence are very tax-efficient in Australia, as they are exempt from capital gains tax (CGT). Meanwhile, investing in shares in a taxable account means paying CGT when selling. 
@@ -248,7 +263,6 @@ That said, changing the model to have the renter invest in a taxable account and
 
 Meanwhile, if the CGT changes from the May budget had historically applied - or rather, if John Howard's CGT changes hadn't gone through, as the May budget's changes was just a return to the original method - the ending wealth ratio for Sydney houses would have decreased further to 0.96 under the same 32% tax rate. Other cities had the same noticeable but moderate shift of ending wealth ratio, shifting 10-20 percentage points towards the owner when applying the 50% discount method and a further 8-12 points if the indexation method is used instead.
 
-{:.no_toc}
 ## ...super?
 
 One very powerful method of tax minimisation that the renter can access with their extra cashflow is making concessional contributions into superannuation. The renter can use their extra cashflow to make concessional contributions into super, a very powerful method of tax minimisation. In fact, as the owner has to pay for a down payment and mortgage through earnings after income tax, while the renter can invest with concessional tax benefits, this benefit may be even more powerful than the CGT exemption for a primary home. (Although the First Home Super Saver Scheme does mean that part of a down payment can benefit from tax concessions in super, this was not available to home buyers in 2006.)
@@ -359,3 +373,11 @@ Stapledon, Nigel (September 2007). Long term housing prices in Australia and som
 --- (November 2012). Trends and cycles in Sydney and Melbourne house prices from 1880 to 2011. _Australian Economic History Review_, vol. 52 no. 3. <https://doi.org/10.1111/j.1467-8446.2012.00359.x>
 
 State Revenue Office of Tasmania. Rates of duty [property transfer duties]. <https://www.sro.tas.gov.au/property-transfer-duties/rates-of-duty>. Accessed 13 August 2026.
+
+# Changelog
+
+| **Date**   | **Change**                                                  |
+|------------|-------------------------------------------------------------|
+| 2026-09-12 | Initial publication of post                                 |
+| 2026-09-13 | Minor edits to clarify wording                              |
+| 2026-09-16 | Added changelog & added "but what about" subsections to ToC |
